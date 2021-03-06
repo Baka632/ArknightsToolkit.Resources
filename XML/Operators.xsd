@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Operators"
+    targetNamespace="http://schema.livestudio.com/Operators.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://schema.livestudio.com/Operators.xsd"
+    xmlns:mstns="http://schema.livestudio.com/Operators.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  <xs:element name="OperatorsList" type="OperatorsList"/>
+
+  <xs:complexType name="OperatorsList">
+    <xs:sequence maxOccurs="unbounded">
+          <xs:element name="Operator" type="Operator"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="Operator">
+      <xs:sequence>
+          <xs:element name="Birthday" type="birthday"/>
+      </xs:sequence>
+      <xs:attribute name="Name" type="xs:string" use="required"/>
+      <xs:attribute name="Star" type="star" use="required"/>
+      <xs:attribute name="ImageCodename" type="codename" use="required"/>
+      <xs:attribute name="OperatorClass" type="class" use="required"/>
+      <xs:attribute name="HasSkin" type="xs:boolean" use="required"/>
+      <xs:attribute name="Sex" type="sex" use="required"/>
+    </xs:complexType>
+    
+  <xs:complexType name="birthday">
+    <xs:sequence>
+      <xs:element name="Month" type="month"/>
+      <xs:element name="Day" type="day"/>
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:simpleType name="class">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Vanguard"/> <!--先锋-->
+      <xs:enumeration value="Sniper"/> <!--狙击-->
+      <xs:enumeration value="Guard"/> <!--近卫-->
+      <xs:enumeration value="Caster"/> <!--术师-->
+      <xs:enumeration value="Defender"/> <!--重装-->
+      <xs:enumeration value="Medic"/> <!--医疗-->
+      <xs:enumeration value="Specialist"/> <!--特种-->
+      <xs:enumeration value="Supporter"/> <!--辅助-->
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name="sex">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Male"/> <!--男性-->
+      <xs:enumeration value="Female"/> <!--女性-->
+      <xs:enumeration value="Conviction"/> <!--断罪-->
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name="codename">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="([a-z0-9])*[-][e][0-2]"/>
+      <xs:whiteSpace value="replace"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+   <xs:simpleType name="star">
+     <xs:restriction base="xs:integer">
+        <xs:minInclusive value="1"/>
+        <xs:maxInclusive value="6"/>
+      </xs:restriction>
+   </xs:simpleType>
+
+   <xs:simpleType name="month">
+    <xs:restriction base="xs:integer">
+      <xs:minInclusive value="1"/>
+      <xs:maxInclusive value="12"/>
+    </xs:restriction>
+   </xs:simpleType>
+  
+   <xs:simpleType name="day">
+    <xs:restriction base="xs:integer">
+      <xs:minInclusive value="1"/>
+      <xs:maxInclusive value="31"/>
+    </xs:restriction>
+   </xs:simpleType>
+</xs:schema>
