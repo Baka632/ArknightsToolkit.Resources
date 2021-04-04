@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Sample Data-->
-<OperatorsList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Operator Name="Doctor" Star="6" ImageCodename="doctor-e0" OperatorClass="Specialist" HasSkin="true" xmlns="http://schema.livestudio.com/Operators.xsd">
+<OperatorsList xmlns="http://schema.livestudio.com/Operators.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Operator Name="Doctor" Sex="Male" Star="6" ImageCodename="doctor_e0" OperatorClass="Specialist" HasSkin="false">
     <Birthday>
       <Month>5</Month>
       <Day>14</Day>
     </Birthday>
   </Operator>
-  <Operator Name="Amiya" Star="5" ImageCodename="amiya-e0" OperatorClass="Caster" HasSkin="true" xmlns="http://schema.livestudio.com/Operators.xsd">
+  <Operator Name="Amiya" Sex="Female" Star="5" ImageCodename="amiya_e0" OperatorClass="Caster" HasSkin="true">
     <Birthday>
       <Month>12</Month>
       <Day>23</Day>
