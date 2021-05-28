@@ -83,6 +83,36 @@ namespace ArknightsToolkit.Resources {
         /// <summary>
         ///   查找 System.Byte[] 类型的本地化资源。
         /// </summary>
+        public static byte[] operator_angelina_e0 {
+            get {
+                object obj = ResourceManager.GetObject("operator_angelina_e0", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_bluepoison_e0 {
+            get {
+                object obj = ResourceManager.GetObject("operator_bluepoison_e0", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_ceylon_e0 {
+            get {
+                object obj = ResourceManager.GetObject("operator_ceylon_e0", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
         public static byte[] operator_doctor_e0 {
             get {
                 object obj = ResourceManager.GetObject("operator_doctor_e0", resourceCulture);
@@ -91,16 +121,46 @@ namespace ArknightsToolkit.Resources {
         }
         
         /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_exusiai_e0 {
+            get {
+                object obj = ResourceManager.GetObject("operator_exusiai_e0", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_gravel_e0 {
+            get {
+                object obj = ResourceManager.GetObject("operator_gravel_e0", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_platinum_e0 {
+            get {
+                object obj = ResourceManager.GetObject("operator_platinum_e0", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
         ///&lt;!--Sample Data--&gt;
         ///&lt;OperatorsList xmlns=&quot;http://schema.livestudio.com/Operators.xsd&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
-        ///  &lt;Operator Name=&quot;Doctor&quot; Sex=&quot;Male&quot; Star=&quot;6&quot; ImageCodename=&quot;doctor-e0&quot; OperatorClass=&quot;Specialist&quot; HasSkin=&quot;false&quot;&gt;
+        ///  &lt;Operator Name=&quot;博士&quot; Sex=&quot;Male&quot; Star=&quot;6&quot; ImageCodename=&quot;doctor_e0&quot; OperatorClass=&quot;Specialist&quot; HasSkin=&quot;false&quot;&gt;
         ///    &lt;Birthday&gt;
         ///      &lt;Month&gt;5&lt;/Month&gt;
         ///      &lt;Day&gt;14&lt;/Day&gt;
         ///    &lt;/Birthday&gt;
         ///  &lt;/Operator&gt;
-        ///  &lt;Operator Name=&quot;Amiya&quot; Sex=&quot;Female&quot; Star=&quot;5&quot; ImageCodename=&quot;amiya-e0&quot; Ope [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        ///  &lt;Operator Name=&quot;阿米娅&quot; Sex=&quot;Female&quot; Star=&quot;5&quot; ImageCodename=&quot;amiya_e0&quot; OperatorC [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
         public static string Operators {
             get {
@@ -222,6 +282,66 @@ namespace ArknightsToolkit.Resources {
         /// <summary>
         ///   查找 System.Byte[] 类型的本地化资源。
         /// </summary>
+        public static byte[] ui_amiya_bg {
+            get {
+                object obj = ResourceManager.GetObject("ui_amiya_bg", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] ui_caster {
+            get {
+                object obj = ResourceManager.GetObject("ui_caster", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] ui_defender {
+            get {
+                object obj = ResourceManager.GetObject("ui_defender", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] ui_guard {
+            get {
+                object obj = ResourceManager.GetObject("ui_guard", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] ui_medic {
+            get {
+                object obj = ResourceManager.GetObject("ui_medic", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] ui_missing {
+            get {
+                object obj = ResourceManager.GetObject("ui_missing", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
         public static byte[] ui_records {
             get {
                 object obj = ResourceManager.GetObject("ui_records", resourceCulture);
@@ -232,9 +352,19 @@ namespace ArknightsToolkit.Resources {
         /// <summary>
         ///   查找 System.Byte[] 类型的本地化资源。
         /// </summary>
-        public static byte[] ui_star {
+        public static byte[] ui_sniper {
             get {
-                object obj = ResourceManager.GetObject("ui_star", resourceCulture);
+                object obj = ResourceManager.GetObject("ui_sniper", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] ui_specialist {
+            get {
+                object obj = ResourceManager.GetObject("ui_specialist", resourceCulture);
                 return ((byte[])(obj));
             }
         }
@@ -272,9 +402,29 @@ namespace ArknightsToolkit.Resources {
         /// <summary>
         ///   查找 System.Byte[] 类型的本地化资源。
         /// </summary>
+        public static byte[] ui_supporter {
+            get {
+                object obj = ResourceManager.GetObject("ui_supporter", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
         public static byte[] ui_tape {
             get {
                 object obj = ResourceManager.GetObject("ui_tape", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] ui_vanguard {
+            get {
+                object obj = ResourceManager.GetObject("ui_vanguard", resourceCulture);
                 return ((byte[])(obj));
             }
         }

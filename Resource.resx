@@ -130,8 +130,26 @@
   <data name="operator_amiya_e0" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\operator-amiya-e0.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="operator_angelina_e0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\operator_angelina_e0.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_bluepoison_e0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\operator_bluepoison_e0.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_ceylon_e0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\operator_ceylon_e0.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="operator_doctor_e0" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\operator-doctor-e0.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_exusiai_e0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\operator_exusiai_e0.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_gravel_e0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\operator_gravel_e0.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_platinum_e0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\operator_platinum_e0.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="storyimage_main_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\storyimage-main-0.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -160,11 +178,32 @@
   <data name="storyimage_main_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\storyimage-main-8.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="ui_amiya_bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ui_amiya_bg.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ui_caster" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ui_caster.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ui_defender" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ui_defender.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ui_guard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ui_guard.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ui_medic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ui_medic.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ui_missing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ui_missing.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="ui_records" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\ui-records.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="ui_star" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\ui-star.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="ui_sniper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ui_sniper.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ui_specialist" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ui_specialist.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="ui_story_background1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\ui-story-background1.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -175,7 +214,13 @@
   <data name="ui_story_background3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\ui-story-background3.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="ui_supporter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ui_supporter.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="ui_tape" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\ui-tape.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ui_vanguard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ui_vanguard.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

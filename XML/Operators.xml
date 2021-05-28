@@ -1,16 +1,76 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Sample Data-->
 <OperatorsList xmlns="http://schema.livestudio.com/Operators.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Operator Name="Doctor" Sex="Male" Star="6" ImageCodename="doctor_e0" OperatorClass="Specialist" HasSkin="false">
+  <Operator Name="博士" Gender="Male" Star="6">
     <Birthday>
       <Month>5</Month>
       <Day>14</Day>
     </Birthday>
+    <Children>
+      <Child ImageCodename="doctor_e0" OperatorClass="Specialist" Type="Elite0"/>
+    </Children>
   </Operator>
-  <Operator Name="Amiya" Sex="Female" Star="5" ImageCodename="amiya_e0" OperatorClass="Caster" HasSkin="true">
+  <Operator Name="阿米娅" Gender="Female" Star="5">
     <Birthday>
       <Month>12</Month>
       <Day>23</Day>
     </Birthday>
+    <Children>
+      <Child ImageCodename="amiya_e0" OperatorClass="Caster" Type="Elite0"/>
+    </Children>
+  </Operator>
+  <Operator Name="锡兰" Gender="Female" Star="5">
+    <Birthday>
+      <Month>9</Month>
+      <Day>25</Day>
+    </Birthday>
+    <Children>
+      <Child ImageCodename="ceylon_e0" OperatorClass="Medic" Type="Elite0"/>
+    </Children>
+  </Operator>
+  <Operator Name="安洁莉娜" Gender="Female" Star="6">
+    <Birthday>
+      <Month>5</Month>
+      <Day>14</Day>
+    </Birthday>
+    <Children>
+      <Child ImageCodename="angelina_e0" OperatorClass="Supporter" Type="Elite0"/>
+    </Children>
+  </Operator>
+  <Operator Name="蓝毒" Gender="Female" Star="5">
+    <Birthday>
+      <Month>1</Month>
+      <Day>18</Day>
+    </Birthday>
+    <Children>
+      <Child ImageCodename="bluepoison_e0" OperatorClass="Sniper" Type="Elite0"/>
+    </Children>
+  </Operator>
+  <Operator Name="能天使" Gender="Female" Star="6">
+    <Birthday>
+      <Month>12</Month>
+      <Day>24</Day>
+    </Birthday>
+    <Children>
+      <Child ImageCodename="exusiai_e0" OperatorClass="Sniper" Type="Elite0"/>
+    </Children>
+  </Operator>
+  <Operator Name="砾" Gender="Female" Star="4" >
+    <Birthday>
+      <Month>1</Month>
+      <Day>20</Day>
+    </Birthday>
+    <Children>
+      <Child ImageCodename="gravel_e0" OperatorClass="Specialist" Type="Elite0"/>
+    </Children>
+  </Operator>
+  <Operator Name="白金" Gender="Female" Star="5">
+    <Birthday>
+      <Month>2</Month>
+      <Day>13</Day>
+    </Birthday>
+    <Children>
+      <Child ImageCodename="platinum_e0" OperatorClass="Sniper" Type="Elite0"/>
+    </Children>
   </Operator>
 </OperatorsList>

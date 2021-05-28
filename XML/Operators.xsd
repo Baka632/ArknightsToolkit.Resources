@@ -15,23 +15,57 @@
   </xs:complexType>
 
   <xs:complexType name="Operator">
-      <xs:sequence>
-          <xs:element name="Birthday" type="birthday"/>
-      </xs:sequence>
-      <xs:attribute name="Name" type="xs:string" use="required"/>
-      <xs:attribute name="Star" type="star" use="required"/>
-      <xs:attribute name="ImageCodename" type="codename" use="required"/>
-      <xs:attribute name="OperatorClass" type="class" use="required"/>
-      <xs:attribute name="HasSkin" type="xs:boolean" use="required"/>
-      <xs:attribute name="Sex" type="sex" use="required"/>
+    <xs:sequence maxOccurs="unbounded">
+      <xs:element name="Birthday" type="birthday"/>
+      <xs:element name="Children" type="Children"/>
+    </xs:sequence>
+    <xs:attribute name="Name" type="xs:string" use="required"/>
+    <xs:attribute name="Gender" type="gender" use="required"/>
+    <xs:attribute name="Star" type="star" use="required"/>
     </xs:complexType>
-    
+
+  <xs:complexType name="Children">
+    <xs:sequence maxOccurs="unbounded">
+      <xs:element name="Child" type="child"/>
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:complexType name="child">
+    <xs:attribute name="ImageCodename" type="xs:string" use="required"/>
+    <xs:attribute name="OperatorClass" type="class" use="required"/>
+    <xs:attribute name="Type" type="operatorType" use="required"/>
+  </xs:complexType>
+
+  <xs:simpleType name="operatorType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Elite0"/>
+      <xs:enumeration value="Elite1"/>
+      <xs:enumeration value="Elite2"/>
+      <xs:enumeration value="Skin"/>
+      <xs:enumeration value="Promotion"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
   <xs:complexType name="birthday">
     <xs:sequence>
       <xs:element name="Month" type="month"/>
       <xs:element name="Day" type="day"/>
     </xs:sequence>
   </xs:complexType>
+
+  <xs:simpleType name="month">
+    <xs:restriction base="xs:integer">
+      <xs:minInclusive value="1"/>
+      <xs:maxInclusive value="12"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="day">
+    <xs:restriction base="xs:integer">
+      <xs:minInclusive value="1"/>
+      <xs:maxInclusive value="31"/>
+    </xs:restriction>
+  </xs:simpleType>
   
   <xs:simpleType name="class">
     <xs:restriction base="xs:string">
@@ -46,18 +80,11 @@
     </xs:restriction>
   </xs:simpleType>
   
-  <xs:simpleType name="sex">
+  <xs:simpleType name="gender">
     <xs:restriction base="xs:string">
       <xs:enumeration value="Male"/> <!--男性-->
       <xs:enumeration value="Female"/> <!--女性-->
       <xs:enumeration value="Conviction"/> <!--断罪-->
-    </xs:restriction>
-  </xs:simpleType>
-  
-  <xs:simpleType name="codename">
-    <xs:restriction base="xs:string">
-      <xs:pattern value="([a-z0-9])*[_][e][0-2]"/>
-      <xs:whiteSpace value="replace"/>
     </xs:restriction>
   </xs:simpleType>
 
@@ -66,19 +93,5 @@
         <xs:minInclusive value="1"/>
         <xs:maxInclusive value="6"/>
       </xs:restriction>
-   </xs:simpleType>
-
-   <xs:simpleType name="month">
-    <xs:restriction base="xs:integer">
-      <xs:minInclusive value="1"/>
-      <xs:maxInclusive value="12"/>
-    </xs:restriction>
-   </xs:simpleType>
-  
-   <xs:simpleType name="day">
-    <xs:restriction base="xs:integer">
-      <xs:minInclusive value="1"/>
-      <xs:maxInclusive value="31"/>
-    </xs:restriction>
    </xs:simpleType>
 </xs:schema>
