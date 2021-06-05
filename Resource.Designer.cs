@@ -83,6 +83,66 @@ namespace ArknightsToolkit.Resources {
         /// <summary>
         ///   查找 System.Byte[] 类型的本地化资源。
         /// </summary>
+        public static byte[] operator_amiya_e1 {
+            get {
+                object obj = ResourceManager.GetObject("operator_amiya_e1", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_amiya_e2 {
+            get {
+                object obj = ResourceManager.GetObject("operator_amiya_e2", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_amiya_promotion {
+            get {
+                object obj = ResourceManager.GetObject("operator_amiya_promotion", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_amiya_skin1 {
+            get {
+                object obj = ResourceManager.GetObject("operator_amiya_skin1", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_amiya_skin2 {
+            get {
+                object obj = ResourceManager.GetObject("operator_amiya_skin2", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_amiya_skin3 {
+            get {
+                object obj = ResourceManager.GetObject("operator_amiya_skin3", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
         public static byte[] operator_angelina_e0 {
             get {
                 object obj = ResourceManager.GetObject("operator_angelina_e0", resourceCulture);
@@ -152,15 +212,18 @@ namespace ArknightsToolkit.Resources {
         
         /// <summary>
         ///   查找类似 &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
-        ///&lt;!--Sample Data--&gt;
         ///&lt;OperatorsList xmlns=&quot;http://schema.livestudio.com/Operators.xsd&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
-        ///  &lt;Operator Name=&quot;博士&quot; Sex=&quot;Male&quot; Star=&quot;6&quot; ImageCodename=&quot;doctor_e0&quot; OperatorClass=&quot;Specialist&quot; HasSkin=&quot;false&quot;&gt;
+        ///  &lt;Operator Name=&quot;阿米娅&quot; Gender=&quot;Female&quot; Star=&quot;5&quot;&gt;
         ///    &lt;Birthday&gt;
-        ///      &lt;Month&gt;5&lt;/Month&gt;
-        ///      &lt;Day&gt;14&lt;/Day&gt;
+        ///      &lt;Month&gt;12&lt;/Month&gt;
+        ///      &lt;Day&gt;23&lt;/Day&gt;
         ///    &lt;/Birthday&gt;
+        ///    &lt;Children&gt;
+        ///      &lt;Child ImageCodename=&quot;amiya_e0&quot; OperatorClass=&quot;Caster&quot; Type=&quot;Elite0&quot;/&gt;
+        ///    &lt;/Children&gt;
         ///  &lt;/Operator&gt;
-        ///  &lt;Operator Name=&quot;阿米娅&quot; Sex=&quot;Female&quot; Star=&quot;5&quot; ImageCodename=&quot;amiya_e0&quot; OperatorC [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        ///  &lt;Operator Name=&quot;锡兰&quot; Gender=&quot;Female&quot; Star=&quot;5&quot;&gt;
+        ///  [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
         public static string Operators {
             get {

@@ -130,6 +130,24 @@
   <data name="operator_amiya_e0" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\operator-amiya-e0.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="operator_amiya_e1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\operator_amiya_e1.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_amiya_e2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\operator_amiya_e2.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_amiya_promotion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\operator_amiya_promotion.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_amiya_skin1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\operator_amiya_skin1.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_amiya_skin2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\operator_amiya_skin2.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_amiya_skin3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\operator_amiya_skin3.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="operator_angelina_e0" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\operator_angelina_e0.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
