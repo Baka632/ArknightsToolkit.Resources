@@ -173,6 +173,16 @@ namespace ArknightsToolkit.Resources {
         /// <summary>
         ///   查找 System.Byte[] 类型的本地化资源。
         /// </summary>
+        public static byte[] operator_ceylon_e2 {
+            get {
+                object obj = ResourceManager.GetObject("operator_ceylon_e2", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
         public static byte[] operator_doctor_e0 {
             get {
                 object obj = ResourceManager.GetObject("operator_doctor_e0", resourceCulture);
@@ -214,16 +224,10 @@ namespace ArknightsToolkit.Resources {
         ///   查找类似 &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
         ///&lt;OperatorsList xmlns=&quot;http://schema.livestudio.com/Operators.xsd&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
         ///  &lt;Operator Name=&quot;阿米娅&quot; Gender=&quot;Female&quot; Star=&quot;5&quot;&gt;
-        ///    &lt;Birthday&gt;
-        ///      &lt;Month&gt;12&lt;/Month&gt;
-        ///      &lt;Day&gt;23&lt;/Day&gt;
-        ///    &lt;/Birthday&gt;
+        ///    &lt;Birthday Month=&quot;12&quot; Day=&quot;23&quot;/&gt;
         ///    &lt;Children&gt;
-        ///      &lt;Child ImageCodename=&quot;amiya_e0&quot; OperatorClass=&quot;Caster&quot; Type=&quot;Elite0&quot;/&gt;
-        ///    &lt;/Children&gt;
-        ///  &lt;/Operator&gt;
-        ///  &lt;Operator Name=&quot;锡兰&quot; Gender=&quot;Female&quot; Star=&quot;5&quot;&gt;
-        ///  [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        ///      &lt;Child Illustrator=&quot;唯@W&quot; CV=&quot;黑泽朋世&quot; ImageCodename=&quot;amiya_e0&quot; OperatorClass=&quot;Caster&quot; Type=&quot;Elite0&quot;/&gt;
+        ///      &lt;Child Illustrator=&quot;唯@W&quot; CV=&quot;黑泽朋世&quot; ImageCodename=&quot;amiya_e1&quot; OperatorClass=&quot;Caster&quot; Type=&quot;E [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
         public static string Operators {
             get {

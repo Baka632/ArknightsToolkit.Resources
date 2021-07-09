@@ -15,7 +15,7 @@
   </xs:complexType>
 
   <xs:complexType name="operator">
-    <xs:sequence maxOccurs="unbounded">
+    <xs:sequence maxOccurs="1">
       <xs:element name="Birthday" type="birthday"/>
       <xs:element name="Children" type="children"/>
       <xs:element name="Profiles" type="profiles"/>
@@ -58,10 +58,10 @@
       <xs:enumeration value="BasicProfile"/>
       <xs:enumeration value="ObjectiveProfile"/>
       <xs:enumeration value="ClinicalAnalysis"/>
-      <xs:enumeration value="FIle1"/>
-      <xs:enumeration value="FIle2"/>
-      <xs:enumeration value="FIle3"/>
-      <xs:enumeration value="FIle4"/>
+      <xs:enumeration value="File1"/>
+      <xs:enumeration value="File2"/>
+      <xs:enumeration value="File3"/>
+      <xs:enumeration value="File4"/>
       <xs:enumeration value="PromotionRecord"/>
       <xs:enumeration value="Promotion1"/>
       <xs:enumeration value="Promotion2"/>
@@ -82,10 +82,8 @@
   </xs:simpleType>
   
   <xs:complexType name="birthday">
-    <xs:sequence>
-      <xs:element name="Month" type="month"/>
-      <xs:element name="Day" type="day"/>
-    </xs:sequence>
+    <xs:attribute name="Month" type="month"/>
+    <xs:attribute name="Day" type="day"/>
   </xs:complexType>
 
   <xs:simpleType name="month">
